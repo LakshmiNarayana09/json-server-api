@@ -187,5 +187,85 @@
       "marks": 76,
       "attendance": 89
     }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "name": "Website Redesign",
+      "description": "Redesign the company website",
+      "status": "In Progress",
+      "startDate": "2026-08-01",
+      "dueDate": "2026-08-30"
+    },
+    {
+      "name": "Mobile Application",
+      "description": "Develop the company mobile application",
+      "startDate": "2026-08-05",
+      "dueDate": "2026-09-30",
+      "status": "In Progress",
+      "id": "2"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "projectId": 1,
+      "title": "Create Navbar",
+      "description": "Build responsive navigation bar",
+      "assignedTo": 1,
+      "priority": "High",
+      "status": "In Progress",
+      "dueDate": "2026-08-10"
+    },
+    {
+      "id": "2",
+      "projectId": 1,
+      "title": "Create Footer",
+      "description": "Build responsive footer",
+      "assignedTo": 2,
+      "priority": "Medium",
+      "status": "Todo",
+      "dueDate": "2026-08-12"
+    },
+    {
+      "title": "Create Login Screen",
+      "description": "Build the login screen with email and password fields",
+      "projectId": 2,
+      "assignedTo": 1,
+      "dueDate": "2026-08-17",
+      "priority": "High",
+      "status": "Completed",
+      "id": "Qxc-woUtirU"
+    },
+    {
+      "title": "Design Profile Screen",
+      "description": "Create a responsive profile screen for the mobile application",
+      "projectId": 2,
+      "assignedTo": 3,
+      "dueDate": "2026-08-17",
+      "priority": "Medium",
+      "status": "Todo",
+      "id": "mqQrrnfAFDw"
+    }
+  ],
+  "teamMembers": [
+    {
+      "name": "Rahul Kumar",
+      "email": "rahul@example.com",
+      "role": "Frontend Developer",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Arun Kumar",
+      "email": "arun@example.com",
+      "role": "Backend Developer"
+    },
+    {
+      "id": "3",
+      "name": "Priya Sharma",
+      "email": "priya@example.com",
+      "role": "UI/UX Designer"
+    }
   ]
 }
