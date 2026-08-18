@@ -272,8 +272,8 @@
     {
       "id": "1",
       "name": "Rahul",
-      "email": "candidate@gmail.com",
-      "password": "candidate123",
+      "email": "rahul@gmail.com",
+      "password": "rahul123",
       "role": "CANDIDATE",
       "phone": "9876543210",
       "location": "Bangalore",
