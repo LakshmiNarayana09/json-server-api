@@ -756,5 +756,107 @@
       "savedDate": "2026-08-14",
       "id": 5
     }
+  ],
+  "employees": [
+    {
+      "id": "1",
+      "fullName": "Rahul Sharma",
+      "email": "rahul.sharma@example.com",
+      "phone": "9876543210",
+      "department": "IT",
+      "role": "Software Engineer",
+      "joiningDate": "2023-01-15",
+      "status": "Active"
+    },
+    {
+      "id": "2",
+      "fullName": "Priya Reddy",
+      "email": "priya.reddy@example.com",
+      "phone": "9876543211",
+      "department": "HR",
+      "role": "HR Manager",
+      "joiningDate": "2022-06-20",
+      "status": "Active"
+    },
+    {
+      "id": "3",
+      "fullName": "Arjun Kumar",
+      "email": "arjun.kumar@example.com",
+      "phone": "9876543212",
+      "department": "Finance",
+      "role": "Financial Analyst",
+      "joiningDate": "2023-03-10",
+      "status": "Active"
+    },
+    {
+      "id": "4",
+      "fullName": "Sneha Patel",
+      "email": "sneha.patel@example.com",
+      "phone": "9876543213",
+      "department": "Marketing",
+      "role": "Marketing Executive",
+      "joiningDate": "2024-01-08",
+      "status": "Active"
+    },
+    {
+      "id": "5",
+      "fullName": "Kiran Rao",
+      "email": "kiran.rao@example.com",
+      "phone": "9876543214",
+      "department": "IT",
+      "role": "Frontend Developer",
+      "joiningDate": "2023-08-21",
+      "status": "Active"
+    },
+    {
+      "id": "6",
+      "fullName": "Ananya Singh",
+      "email": "ananya.singh@example.com",
+      "phone": "9876543215",
+      "department": "Sales",
+      "role": "Sales Executive",
+      "joiningDate": "2024-04-12",
+      "status": "On Leave"
+    },
+    {
+      "id": "7",
+      "fullName": "Vikram Das",
+      "email": "vikram.das@example.com",
+      "phone": "9876543216",
+      "department": "IT",
+      "role": "Backend Developer",
+      "joiningDate": "2022-11-05",
+      "status": "Active"
+    },
+    {
+      "id": "8",
+      "fullName": "Divya Nair",
+      "email": "divya.nair@example.com",
+      "phone": "9876543217",
+      "department": "Operations",
+      "role": "Operations Manager",
+      "joiningDate": "2021-09-18",
+      "status": "Active"
+    },
+    {
+      "id": "9",
+      "fullName": "Rohit Verma",
+      "email": "rohit.verma@example.com",
+      "phone": "9876543218",
+      "department": "Finance",
+      "role": "Accountant",
+      "joiningDate": "2023-12-01",
+      "status": "Inactive"
+    },
+    {
+      "id": "10",
+      "fullName": "Meera Joshi",
+      "email": "meera.joshi@example.com",
+      "phone": "9876543219",
+      "department": "HR",
+      "role": "HR Executive",
+      "joiningDate": "2024-02-26",
+      "status": "Active"
+    }
   ]
 }
