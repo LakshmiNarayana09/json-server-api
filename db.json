@@ -858,5 +858,181 @@
       "joiningDate": "2024-02-26",
       "status": "Active"
     }
+  ],
+  "movies": [
+    {
+      "id": "1",
+      "name": "Avengers: Endgame",
+      "posterUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba",
+      "genre": "Action",
+      "language": "English",
+      "duration": "3h 2m",
+      "releaseDate": "2026-08-20",
+      "rating": 8.8,
+      "status": "Now Showing",
+      "description": "A group of superheroes fight to save the world."
+    },
+    {
+      "name": "Interstellar",
+      "posterUrl": "https://images.unsplash.com/photo-1440404653325-ab127d49abc1",
+      "genre": "Sci-Fi",
+      "language": "English",
+      "duration": "2h 49m",
+      "releaseDate": "2026-09-10",
+      "rating": 8.6,
+      "status": "Upcoming",
+      "description": "A team travels through space searching for a new home.",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "Leo",
+      "posterUrl": "https://images.unsplash.com/photo-1485846234645-a62644f84728",
+      "genre": "Action",
+      "language": "Tamil",
+      "duration": "2h 44m",
+      "releaseDate": "2026-08-18",
+      "rating": 8.2,
+      "status": "Now Showing",
+      "description": "An action drama about a man with a mysterious past."
+    },
+    {
+      "id": "4",
+      "name": "Jailer",
+      "posterUrl": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c",
+      "genre": "Action",
+      "language": "Tamil",
+      "duration": "2h 48m",
+      "releaseDate": "2026-08-15",
+      "rating": 8.5,
+      "status": "Now Showing",
+      "description": "A retired jailer returns to action when his family is threatened."
+    },
+    {
+      "id": "5",
+      "name": "The Batman",
+      "posterUrl": "https://images.unsplash.com/photo-1509347528160-9a9e33742cdb",
+      "genre": "Crime",
+      "language": "English",
+      "duration": "2h 56m",
+      "releaseDate": "2026-09-05",
+      "rating": 8.7,
+      "status": "Upcoming",
+      "description": "A mysterious vigilante investigates a series of crimes in Gotham City."
+    },
+    {
+      "id": "6",
+      "name": "RRR",
+      "posterUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba",
+      "genre": "Action",
+      "language": "Telugu",
+      "duration": "3h 2m",
+      "releaseDate": "2026-08-12",
+      "rating": 8.9,
+      "status": "Now Showing",
+      "description": "Two legendary revolutionaries join forces against a powerful enemy."
+    }
+  ],
+  "theatres": [
+    {
+      "id": "1",
+      "name": "PVR Cinemas",
+      "location": "Bangalore",
+      "screens": 5
+    },
+    {
+      "name": "INOX",
+      "location": "Bangalore",
+      "screens": 4,
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "Cinepolis",
+      "location": "Hyderabad",
+      "screens": 6
+    }
+  ],
+  "shows": [
+    {
+      "movieId": "1",
+      "theatreId": "1",
+      "screen": "Screen 1",
+      "date": "2026-08-24",
+      "showTime": "10:30 AM",
+      "ticketPrice": 200,
+      "availableSeats": 96,
+      "bookedSeats": [
+        "H4",
+        "H5",
+        "H6",
+        "H7"
+      ],
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "movieId": "1",
+      "theatreId": "2",
+      "screen": "Screen 2",
+      "date": "2026-08-24",
+      "showTime": "06:30 PM",
+      "ticketPrice": 250,
+      "availableSeats": 80
+    },
+    {
+      "movieId": "2",
+      "theatreId": "2",
+      "screen": "Screen 2",
+      "date": "2026-08-24",
+      "showTime": "15:30",
+      "ticketPrice": 200,
+      "availableSeats": 198,
+      "bookedSeats": [
+        "G4",
+        "G5"
+      ],
+      "id": "wy58ZrhZf1M"
+    }
+  ],
+  "bookings": [
+    {
+      "customerName": "Hari",
+      "email": "hari@gmail.com",
+      "phone": "8765432109",
+      "showId": "1",
+      "movieId": "1",
+      "theatreId": "1",
+      "date": "2026-08-24",
+      "showTime": "10:30 AM",
+      "seats": [
+        "H4",
+        "H5",
+        "H6",
+        "H7"
+      ],
+      "numberOfTickets": 4,
+      "totalAmount": 800,
+      "status": "Confirmed",
+      "id": "F8fOCDCXe-M"
+    },
+    {
+      "customerName": "Ravi",
+      "email": "ravi@gmail.com",
+      "phone": "8765432121",
+      "showId": "wy58ZrhZf1M",
+      "movieId": "2",
+      "theatreId": "2",
+      "date": "2026-08-24",
+      "showTime": "15:30",
+      "seats": [
+        "G4",
+        "G5"
+      ],
+      "numberOfTickets": 2,
+      "totalAmount": 400,
+      "status": "Confirmed",
+      "id": "mQ1rMQsHlV8"
+    }
   ]
 }
