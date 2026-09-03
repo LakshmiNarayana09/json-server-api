@@ -268,7 +268,7 @@
       "role": "UI/UX Designer"
     }
   ],
-  "users": [
+  "users2": [
     {
       "id": "1",
       "name": "Rahul",
@@ -995,7 +995,7 @@
       "id": "wy58ZrhZf1M"
     }
   ],
-  "bookings": [
+  "bookings1": [
     {
       "customerName": "Hari",
       "email": "hari@gmail.com",
@@ -1532,6 +1532,338 @@
       "paymentStatus": "Paid",
       "description": "Orthopedic consultation"
     }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@evcharge.com",
+      "password": "admin123",
+      "role": "Super Admin"
+    },
+    {
+      "id": "2",
+      "name": "John Manager",
+      "email": "manager@evcharge.com",
+      "password": "manager123",
+      "role": "Station Manager",
+      "stationIds": [
+        "ST001",
+        "ST002"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Rahul Customer",
+      "email": "rahul@evcharge.com",
+      "password": "rahul123",
+      "role": "Customer"
+    },
+    {
+      "id": "4",
+      "name": "Priya Customer",
+      "email": "priya@evcharge.com",
+      "password": "priya123",
+      "role": "Customer"
+    },
+    {
+      "name": "Virat",
+      "email": "virat@evcharge.com",
+      "password": "virat123",
+      "role": "Customer",
+      "id": "rYrzMSBa12k"
+    }
+  ],
+  "stations": [
+    {
+      "id": "1",
+      "stationId": "ST001",
+      "name": "Green Energy Hub",
+      "location": "Koramangala",
+      "address": "80 Feet Road, Koramangala, Bengaluru",
+      "numberOfChargers": 4,
+      "availableChargers": 3,
+      "operatingHours": "06:00 AM - 11:00 PM",
+      "status": "Active"
+    },
+    {
+      "id": "2",
+      "stationId": "ST002",
+      "name": "EcoCharge Station",
+      "location": "Indiranagar",
+      "address": "100 Feet Road, Indiranagar, Bengaluru",
+      "numberOfChargers": 3,
+      "availableChargers": 2,
+      "operatingHours": "24 Hours",
+      "status": "Active"
+    },
+    {
+      "id": "3",
+      "stationId": "ST003",
+      "name": "PowerGo EV Hub",
+      "location": "Whitefield",
+      "address": "ITPL Main Road, Whitefield, Bengaluru",
+      "numberOfChargers": 5,
+      "availableChargers": 4,
+      "operatingHours": "05:00 AM - 12:00 AM",
+      "status": "Active"
+    },
+    {
+      "id": "4",
+      "stationId": "ST004",
+      "name": "ChargePoint Central",
+      "location": "HSR Layout",
+      "address": "27th Main Road, HSR Layout, Bengaluru",
+      "numberOfChargers": 2,
+      "availableChargers": 1,
+      "operatingHours": "06:00 AM - 10:00 PM",
+      "status": "Maintenance"
+    }
+  ],
+  "chargers": [
+    {
+      "id": "1",
+      "chargerId": "CH001",
+      "stationId": "ST001",
+      "chargerType": "DC Fast Charger",
+      "powerOutput": 60,
+      "connectorType": "CCS2",
+      "pricePerUnit": 12,
+      "status": "Available"
+    },
+    {
+      "id": "2",
+      "chargerId": "CH002",
+      "stationId": "ST001",
+      "chargerType": "AC Charger",
+      "powerOutput": 22,
+      "connectorType": "Type 2",
+      "pricePerUnit": 8,
+      "status": "Available"
+    },
+    {
+      "id": "3",
+      "chargerId": "CH003",
+      "stationId": "ST001",
+      "chargerType": "DC Fast Charger",
+      "powerOutput": 120,
+      "connectorType": "CCS2",
+      "pricePerUnit": 15,
+      "status": "Booked"
+    },
+    {
+      "id": "4",
+      "chargerId": "CH004",
+      "stationId": "ST001",
+      "chargerType": "AC Charger",
+      "powerOutput": 11,
+      "connectorType": "Type 2",
+      "pricePerUnit": 7,
+      "status": "Available"
+    },
+    {
+      "id": "5",
+      "chargerId": "CH005",
+      "stationId": "ST002",
+      "chargerType": "DC Fast Charger",
+      "powerOutput": 60,
+      "connectorType": "CCS2",
+      "pricePerUnit": 12,
+      "status": "Available"
+    },
+    {
+      "id": "6",
+      "chargerId": "CH006",
+      "stationId": "ST002",
+      "chargerType": "AC Charger",
+      "powerOutput": 22,
+      "connectorType": "Type 2",
+      "pricePerUnit": 8,
+      "status": "In Use"
+    },
+    {
+      "id": "7",
+      "chargerId": "CH007",
+      "stationId": "ST002",
+      "chargerType": "DC Fast Charger",
+      "powerOutput": 100,
+      "connectorType": "CHAdeMO",
+      "pricePerUnit": 14,
+      "status": "Available"
+    },
+    {
+      "id": "8",
+      "chargerId": "CH008",
+      "stationId": "ST003",
+      "chargerType": "DC Fast Charger",
+      "powerOutput": 120,
+      "connectorType": "CCS2",
+      "pricePerUnit": 15,
+      "status": "Available"
+    },
+    {
+      "id": "9",
+      "chargerId": "CH009",
+      "stationId": "ST003",
+      "chargerType": "AC Charger",
+      "powerOutput": 22,
+      "connectorType": "Type 2",
+      "pricePerUnit": 8,
+      "status": "Available"
+    },
+    {
+      "id": "10",
+      "chargerId": "CH010",
+      "stationId": "ST003",
+      "chargerType": "DC Fast Charger",
+      "powerOutput": 60,
+      "connectorType": "CCS2",
+      "pricePerUnit": 12,
+      "status": "Maintenance"
+    },
+    {
+      "id": "11",
+      "chargerId": "CH011",
+      "stationId": "ST003",
+      "chargerType": "AC Charger",
+      "powerOutput": 11,
+      "connectorType": "Type 2",
+      "pricePerUnit": 7,
+      "status": "Available"
+    },
+    {
+      "id": "12",
+      "chargerId": "CH012",
+      "stationId": "ST003",
+      "chargerType": "DC Fast Charger",
+      "powerOutput": 100,
+      "connectorType": "CCS2",
+      "pricePerUnit": 14,
+      "status": "Available"
+    },
+    {
+      "id": "13",
+      "chargerId": "CH013",
+      "stationId": "ST004",
+      "chargerType": "DC Fast Charger",
+      "powerOutput": 60,
+      "connectorType": "CCS2",
+      "pricePerUnit": 12,
+      "status": "Available"
+    },
+    {
+      "id": "14",
+      "chargerId": "CH014",
+      "stationId": "ST004",
+      "chargerType": "AC Charger",
+      "powerOutput": 22,
+      "connectorType": "Type 2",
+      "pricePerUnit": 8,
+      "status": "Maintenance"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "bookingId": "BK001",
+      "customerId": "3",
+      "customerName": "Rahul Customer",
+      "vehicleNumber": "KA01AB1234",
+      "vehicleModel": "Tata Nexon EV",
+      "vehicleType": "SUV",
+      "stationId": "ST001",
+      "stationName": "Green Energy Hub",
+      "chargerId": "CH003",
+      "date": "2026-09-02",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "amount": 450,
+      "status": "Active"
+    },
+    {
+      "id": "2",
+      "bookingId": "BK002",
+      "customerId": "4",
+      "customerName": "Priya Customer",
+      "vehicleNumber": "KA05CD5678",
+      "vehicleModel": "MG ZS EV",
+      "vehicleType": "SUV",
+      "stationId": "ST002",
+      "stationName": "EcoCharge Station",
+      "chargerId": "CH006",
+      "date": "2026-09-03",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "amount": 320,
+      "status": "Upcoming"
+    },
+    {
+      "id": "3",
+      "bookingId": "BK003",
+      "customerId": "3",
+      "customerName": "Rahul Customer",
+      "vehicleNumber": "KA01AB1234",
+      "vehicleModel": "Tata Nexon EV",
+      "vehicleType": "SUV",
+      "stationId": "ST003",
+      "stationName": "PowerGo EV Hub",
+      "chargerId": "CH008",
+      "date": "2026-08-30",
+      "startTime": "09:00",
+      "endTime": "10:00",
+      "amount": 500,
+      "status": "Completed"
+    },
+    {
+      "id": "4",
+      "bookingId": "BK004",
+      "customerId": "4",
+      "customerName": "Priya Customer",
+      "vehicleNumber": "KA05CD5678",
+      "vehicleModel": "MG ZS EV",
+      "vehicleType": "SUV",
+      "stationId": "ST001",
+      "stationName": "Green Energy Hub",
+      "chargerId": "CH001",
+      "date": "2026-08-28",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "amount": 400,
+      "status": "Cancelled"
+    },
+    {
+      "bookingId": "BK1788344105288",
+      "customerId": "3",
+      "customerName": "Rahul Customer",
+      "vehicleNumber": "KA01AB1234",
+      "vehicleModel": "Tata Nexon EV",
+      "vehicleType": "SUV",
+      "stationId": "2",
+      "stationName": "EcoCharge Station",
+      "chargerId": "5",
+      "date": "2026-09-02",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "amount": 12,
+      "status": "Upcoming",
+      "id": "BY7bvjKt1NI"
+    },
+    {
+      "bookingId": "BK1788344532849",
+      "customerId": "3",
+      "customerName": "Rahul Customer",
+      "vehicleNumber": "KA23CD0987",
+      "vehicleModel": "Nexon",
+      "vehicleType": "Hatchback",
+      "stationId": "ST001",
+      "stationName": "Green Energy Hub",
+      "chargerId": "1",
+      "date": "2026-09-02",
+      "startTime": "19:00",
+      "endTime": "20:00",
+      "amount": 12,
+      "status": "Upcoming",
+      "id": "XedxswYQ0fM"
+    }
   ]
-
 }
